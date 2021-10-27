@@ -1,0 +1,86 @@
+.jumbotron{
+    height: 350px;
+    img{
+        height: 100%;
+        width: 100%;
+        object-position: top;
+        object-fit: cover;
+    };
+}
+.film-section {
+    width: 100%;
+    background-color: $back-films;
+    .current-series {
+        color: $white;
+        font-size: 18px;
+        font-weight: $bold;
+        background-color: $primary-color;
+        display: inline-block;
+        padding: 10px 20px;
+        position: relative;
+        top: -20px;
+        left: 15%;
+        h3 {
+            font-size: $big;
+        }
+    }
+    .film-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+    }
+    button {
+        background-color: $primary-color; 
+        border: none;
+        color: white;
+        padding: 10px 40px;
+        font-size: $small;
+        cursor: pointer;
+        margin: 20px 0;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+.film-card {
+    cursor: pointer;
+    flex-basis: 14%;
+    margin: 10px;
+    img {
+        height: 135px;
+        width: 135px;
+        object-position: top;
+        object-fit: cover;
+    }
+    p {
+        padding: 10px 0;
+        font-size: $small;
+        color: $white;
+    }
+}
+.banner {
+    background-color: $primary-color;
+    height: 150px;
+}
+.container-banner {
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  @include center(vertical);
+  justify-content: space-around;
+}
+.icon {
+    height: 50px;
+    @include center(vertical);
+    cursor: pointer;    
+    img{
+      height: 100%; 
+      max-width: 50px;
+    }
+    h3 {
+      color: $white;
+      font-size: $normal;
+      padding: 0 10px;
+    }
+}

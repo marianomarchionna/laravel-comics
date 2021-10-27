@@ -3,5 +3,5 @@
 @section('title', 'Games')
 
 @section('content')
-    <h1>GAMES</h1>
+    <h1 class="name-page">GAMES</h1>
 @endsection
