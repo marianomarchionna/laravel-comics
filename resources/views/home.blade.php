@@ -3,5 +3,8 @@
 @section('title', 'Home')
 
 @section('content')
-    <h1>HOME</h1>
+    @foreach ($comics as $comic)
+        {{ $comic['title'] }}
+        <br>
+    @endforeach
 @endsection
