@@ -57,7 +57,7 @@ body {
   text-decoration: none;
   color: inherit;
 }
-.nav-item a:hover {
+.nav-item a:hover, .nav-item a.active {
   color: #0282f9;
 }
 .nav-item:hover {

@@ -24,11 +24,12 @@
   a{
     text-decoration: none;
     color: inherit;
-    &:hover{
+    &:hover,
+    &.active{
       color: $primary-color;
     }
   }
-  &:hover{
+  &:hover {
     color: $primary-color;
     border-bottom: 5px solid $primary-color;
   }
